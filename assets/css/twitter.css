@@ -1,0 +1,420 @@
+@import url('https://fonts.cdnfonts.com/css/sf-compact-display');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 1440px;
+    background-color: #17202a;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-areas: 
+    "header main aside"
+    
+}
+.header {
+    grid-area: header;;
+}
+.home {
+    padding-left: 88px;
+    margin-bottom: 219px;
+}
+.logos {
+    width: 255px;
+    /* margin-bottom: 15px; */
+}
+.logos p {
+    font-family: SF Compact Display;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 22.67px;
+    text-align: left;
+    color: #FFFFFF;
+    align-content: center;
+}
+.homelogo {
+    display: flex;
+    gap: 20px;
+    padding: 15px 10px;
+}
+.homelogo p {
+    color: #1DA1F2;
+}
+.explorelogo {
+    display: flex;
+    gap: 20px;
+    padding: 15px 10px;
+}
+.notificationslogo {
+    display: flex;
+    gap: 20px;
+    padding: 15px 10px;
+}
+.messageslogo {
+    display: flex;
+    gap: 20px;
+    padding: 15px 10px;
+}
+.bookmarklogo {
+    display: flex;
+    gap: 30px;
+    padding: 15px 10px;
+}
+.listslogo {
+    display: flex;
+    gap: 20px;
+    padding: 15px 10px;
+}
+.profilelogo {
+    display: flex;
+    gap: 20px;
+    padding: 15px 10px;
+}
+.morelogo {
+    display: flex;
+    gap: 20px;
+    padding: 15px 10px;
+}
+.homeBtn {
+    padding-block: 15px;
+}
+.home a {
+    text-decoration: none;
+    font-family: SF Compact Display;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #1DA1F2;
+    padding: 15px 93px;
+    border-radius: 9999px;
+}
+.homeAvatar {
+    display: flex;
+    gap: 10px;
+    padding-left: 88px;
+    padding-bottom: 10px;
+}
+.homeAvatarText span {
+    font-family: SF Compact Display;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.09px;
+    text-align: left;
+    color: #FFFFFF;
+}
+.homeAvatarText p {
+    font-family: SF Compact Display;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.09px;
+    text-align: left;
+    color: #8899A6;
+}
+main {
+    grid-area: main;
+    width: 598px;
+    border-left:1px solid #3A444C;
+    border-right: 1px solid #3A444C;
+}
+.menuBar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    margin-left: 15px;
+}
+.menuBar h2 {
+    font-family: SF Compact Display;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 22.67px;
+    text-align: left;
+    color: #FFFFFF;
+}
+.textTweetArea {
+    display: flex;
+    gap: 12px;
+    margin-left: 15px;
+}
+textarea {
+    width: 500px;
+    height: 48px;
+    border-style: none;
+    background-color: #17202a;
+    align-content: center;
+    resize: none;
+}
+textarea::placeholder {
+    font-family: SF Compact Display;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23.87px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    color: #8899A6;
+}
+.icons {
+    display: flex;
+    margin-top: 31px;
+    justify-content: space-around;
+    margin-bottom: 27px;
+}
+.icon {
+    display: flex;
+    gap: 15px;
+}
+.tweetBtn {
+    width: 77px;
+    border-radius: 9999px;
+    background-color: #1DA1F2;
+    font-family: SF Compact Display;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    border-style: none;
+    cursor: pointer;
+}
+
+.post {
+    display: flex;
+    gap: 10px;
+    border-top:1px solid #3A444C;
+    padding: 10px;
+}
+.post-profile {
+    align-content: center;
+}
+.post-profile p {
+    font-family: SF Compact Display;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 17.9px;
+    text-align: left;
+    color: #FFFFFF;
+    display: flex;
+    gap: 4px;
+}
+.post-profile span {
+    font-family: SF Compact Display;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 17.9px;
+    text-align: left;
+    color: #8899A6;
+}
+.post-profile h3 {
+    font-family: SF Compact Display;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 17.9px;
+    text-align: left;
+    color: #FFFFFF;
+}
+.post-footer {
+    margin-left: 60px;
+} 
+.post-footer-icons img {
+    max-width: 18px;
+    max-height: 18px;
+    width: auto;
+    height: auto;
+}
+.post-footer-icons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+.post-footer-icons p {
+    font-family: SF Compact Display;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 15.51px;
+    text-align: left;
+    color: #8899A6;
+}
+.likes p {
+    color: #F4245E;
+}
+.commentIcon, .retweet, .likes, .lastIcon {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    width: auto; 
+}
+.post-footer {
+    padding-bottom: 10px;
+}
+.post-footer a {
+    font-family: SF Compact Display;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 15.51px;
+    text-align: left;
+    color: #1DA1F2;
+    text-decoration: none;
+}
+aside {
+    grid-area: aside;
+    padding-left: 30px;
+    width: 348px;
+}
+.search {
+    margin-bottom: 15px;
+}
+.search input {
+    background-color: #283340;
+    border-radius: 9999px;
+    border-style: none;
+    width: 348px;
+    padding-block: 10px;
+    background-image: url('/assets/img/search-icon.png');
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+.search input::placeholder {
+    text-align:center;
+}
+.news {
+    width: 350px;
+    background-color: #1C2733;
+    border-radius: 16px;
+    margin-bottom: 15px;
+}
+.news h2 {
+    font-family: SF Compact Display;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23.87px;
+    letter-spacing: 0.014em;
+    text-align: left;
+    color: #FFFFFF;
+    padding: 11px 16px;
+}
+.new {
+    display: flex;
+    align-items: center;
+    border-block: 1px solid #3A444C;
+}
+.newsText {
+    width:235px;
+    padding: 10px;
+}
+.newsText p {
+    font-family: SF Compact Display;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.71px;
+    text-align: left;
+    color: #8899A6;
+    margin-bottom: 6px;
+}
+.newsText h3 {
+    font-family: SF Compact Display;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 17.9px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #FFFFFF;
+    margin-bottom: 6px;
+}
+.newsText span {
+    font-family: SF Compact Display;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.71px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #1DA1F2;
+}
+.new img {
+    width:71px ;
+}
+.showmore {
+    padding: 15px;
+}
+.showmore a {
+    font-family: SF Compact Display;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 17.9px;
+    text-align: left;
+    color: #1DA1F2;
+    text-decoration: none;
+}
+.followers {
+    background-color: #1C2733;
+    width: 350px;
+    border-radius: 16px;
+    padding: 16px;
+    margin-bottom: 15px;
+}
+.followers h2 {
+    font-family: SF Compact Display;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23.87px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-bottom: 11px;
+}
+.follower {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid #3A444C;
+    border-top: 1px solid #3A444C;
+    padding-block: 10px;
+}
+.followerTexts h4 {
+    font-family: SF Compact Display;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.09px;
+    text-align: left;
+    color: #FFFFFF;
+}
+.followerTexts p {
+    font-family: SF Compact Display;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.09px;
+    letter-spacing: -0.017em;
+    text-align: left;
+    color: #8899A6;
+}
+.folloerBtn a {
+    text-decoration: none;
+    font-family: SF Compact Display;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: center;
+    color: #1DA1F2;
+    border:1px solid #1DA1F2;
+    background-color: #1C2733;
+    padding: 5.5px 17px;
+    border-radius: 9999px;
+}
+.lastText {
+    font-family: SF Compact Display;
+font-size: 13px;
+font-weight: 500;
+line-height: 15.51px;
+text-align: left;
+color: #8899A6;
+}
+.btn {
+    background-color:#17202a;
+    border-style: none;
+    cursor: pointer;
+}
+.btn i:active {
+    color: #F4245E;
+}
